@@ -1,0 +1,108 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: sans-serif;
+}
+
+header {
+	background-color: #FFF;
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	box-shadow: 0 2px 5px rgba(0,0,0,.2);
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+}
+
+nav li {
+	margin: 0 10px;
+}
+
+nav a {
+	color: #000;
+	text-decoration: none;
+}
+
+.destaque {
+	background-color: #F5F5F5;
+	padding: 20px;
+}
+
+.destaque h2 {
+	margin-bottom: 10px;
+}
+
+.catalogo {
+	background-color: #FFF;
+	padding: 20px;
+}
+
+.catalogo h2 {
+	margin-bottom: 10px;
+}
+
+.vinhos {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.vinho {
+	margin: 10px;
+	flex: 1 0 250px;
+	box-shadow: 0 2px 5px rgba(0,0,0,.2);
+}
+
+.vinho img {
+	max-width: 100%;
+	height: auto;
+}
+
+.vinho h3 {
+	margin: 10px;
+}
+
+.vinho p {
+	margin: 10px;
+}
+
+footer {
+	background-color: #333;
+	color: #FFF;
+	padding: 20px;
+	text-align: center;
+}
+/* Estilos para o cabeçalho */
+header {
+	background-color: #A00000; /* Vermelho escuro */
+	color: #FFF; /* Texto branco */
+}
+
+nav a:hover {
+	color: #A00000; /* Hover em branco */
+}
+
+/* Estilos para a seção de destaque */
+.destaque {
+	background-color: #5F1B98; /* Roxo escuro */
+	color: #FFF; /* Texto branco */
+}
+
+/* Estilos para a seção de catálogo */
+.catalogo {
+	background-color: #F4D03F; /* Amarelo claro */
+	color: #000; /* Texto preto */
+}
+
+/* Estilos para o rodapé */
+footer {
+	background-color: #382513; /* Marrom escuro */
+	color: #FFF; /* Texto branco */
+}
